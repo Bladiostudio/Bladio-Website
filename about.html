@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+
+  <title>Bladio Studio — Custom Software, Real-Time Systems & Interactive Applications</title>
+  <meta name="description"
+        content="Bladio Studio is a Luxembourg-based technical studio building custom software, real-time systems, CLI tools, live event technology, and interactive applications." />
+
+  <link rel="canonical" href="https://bladiostudio.com/index.html" />
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bladio Studio" />
+  <meta property="og:title" content="Bladio Studio — Custom Software & Real-Time Systems" />
+  <meta property="og:description"
+        content="Custom software studio focused on real-time systems, live event tools, CLI utilities, and interactive applications." />
+  <meta property="og:url" content="https://bladiostudio.com/" />
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="./index.html" class="brand" aria-label="Bladio Studio — Home">
+      <span class="brand-wordmark">
+        Bladio<span class="accent">.</span> Studio
+      </span>
+    </a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">☰</button>
+
+    <ul id="nav-links" class="nav-links">
+      <li><a href="./index.html" aria-current="page">Home</a></li>
+      <li><a href="./projects.html">Projects</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <canvas id="heroCanvas" class="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+      <h1>
+        Custom Software & Real-Time Systems.
+      </h1>
+
+      <p class="tagline">
+        Bladio Studio is a Luxembourg-based technical studio building
+        live systems, CLI tools, interactive applications, and custom software
+        for real-world use cases.
+      </p>
+
+      <div class="actions">
+        <a class="btn primary" href="./contact.html">Start a project</a>
+        <a class="btn ghost" href="./projects.html">View selected work</a>
+      </div>
+
+      <p class="muted mt-2">
+        Live event systems • Custom tooling • CLI utilities • Interactive software
+      </p>
+    </div>
+  </section>
+
+  <!-- WHAT WE DO -->
+  <section class="section">
+    <div class="container grid-3">
+
+      <article class="card">
+        <h3>Real-Time & Live Systems</h3>
+        <p class="muted mt-1">
+          Software that operates under live conditions —
+          including event control, timing, scoring,
+          broadcast integration, and monitoring.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Tools & Utilities</h3>
+        <p class="muted mt-1">
+          CLI tools, automation utilities, internal software,
+          and technical tooling built for real workflows,
+          not demos.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Interactive Applications</h3>
+        <p class="muted mt-1">
+          Games, simulations, and experimental systems
+          used to prototype mechanics, test ideas,
+          and validate technical concepts.
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- POSITIONING -->
+  <section class="section">
+    <div class="container grid-2">
+
+      <div>
+        <h2>What we are</h2>
+        <p class="mt-1">
+          We are engineers first.
+        </p>
+        <p class="muted mt-2">
+          Bladio Studio builds custom software systems where reliability,
+          structure, and technical clarity matter — from live event platforms
+          to command-line tools and interactive applications.
+        </p>
+        <p class="muted mt-2">
+          We are not an agency, not a content studio,
+          and not a template-driven service.
+        </p>
+      </div>
+
+      <div>
+        <h2>What we are not</h2>
+        <ul class="mt-2">
+          <li>Generic web agencies</li>
+          <li>One-off gimmick projects</li>
+          <li>Half-finished prototypes for marketing</li>
+          <li>Trend-driven development without purpose</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container" style="text-align:center; max-width:720px;">
+      <h2>Have a technical problem to solve?</h2>
+      <p class="muted mt-2">
+        If your project requires custom software, real-time logic,
+        or reliable systems under real conditions, let’s talk.
+      </p>
+      <p class="mt-3">
+        <a class="btn primary" href="./contact.html">Contact Bladio Studio</a>
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+
+    <div class="footer-col">
+      <h3 class="footer-logo">
+        BLADIO<span class="accent">.</span>STUDIO
+      </h3>
+
+      <p class="muted mt-1">
+        Independent Luxembourgish studio building custom software
+        and real-time systems.
+      </p>
+
+      <p class="mt-2">
+        <strong>Address:</strong><br>
+        Bladio Studio<br>
+        17 Rue de Niederanven<br>
+        L-6990 Luxembourg
+      </p>
+
+      <p class="mt-2">
+        <strong>Email:</strong><br>
+        <a href="mailto:contact@bladiostudio.com">
+          contact@bladiostudio.com
+        </a>
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul class="footer-links">
+        <li><a href="./impressum.html">Impressum</a></li>
+        <li><a href="./privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Bladio Studio — All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
